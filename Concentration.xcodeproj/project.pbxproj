@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16C17A62985766B008DDAB3 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C17A52985766B008DDAB3 /* ConcentrationGame.swift */; };
+		E16C17A8298576B5008DDAB3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C17A7298576B5008DDAB3 /* Card.swift */; };
 		E1B4287829855AF5006AA618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B4287729855AF5006AA618 /* AppDelegate.swift */; };
 		E1B4287A29855AF6006AA618 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B4287929855AF6006AA618 /* SceneDelegate.swift */; };
 		E1B4287C29855AF6006AA618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B4287B29855AF6006AA618 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E16C17A52985766B008DDAB3 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
+		E16C17A7298576B5008DDAB3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		E1B4287429855AF5006AA618 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B4287729855AF5006AA618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1B4287929855AF6006AA618 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		E1B4287629855AF5006AA618 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				E16C17A52985766B008DDAB3 /* ConcentrationGame.swift */,
+				E16C17A7298576B5008DDAB3 /* Card.swift */,
 				E1B4287729855AF5006AA618 /* AppDelegate.swift */,
 				E1B4287929855AF6006AA618 /* SceneDelegate.swift */,
 				E1B4287B29855AF6006AA618 /* ViewController.swift */,
@@ -140,7 +146,9 @@
 			files = (
 				E1B4287C29855AF6006AA618 /* ViewController.swift in Sources */,
 				E1B4287829855AF5006AA618 /* AppDelegate.swift in Sources */,
+				E16C17A8298576B5008DDAB3 /* Card.swift in Sources */,
 				E1B4287A29855AF6006AA618 /* SceneDelegate.swift in Sources */,
+				E16C17A62985766B008DDAB3 /* ConcentrationGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
